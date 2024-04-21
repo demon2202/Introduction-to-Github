@@ -94,7 +94,7 @@ But before we begin, it is worth knowing in order to add a file to a repository 
 
 - Click Commit changes or Propose changes.
 
-# Congratulations you just created a new file in your repository! You have also created a new branch and made a commit!
+## Congratulations you just created a new file in your repository! You have also created a new branch and made a commit!Now lets learn abot gits and wikis
 
 ## What are gists
 Now that we have a good understanding of repositories, we can review gists. Similarly to repositories, gists are a simplified way to share code snippets with others.
