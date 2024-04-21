@@ -49,68 +49,52 @@ You can create a new repository on your personal account or any organization whe
 
 Let’s tackle creating a repository from github.com.
 
-In the upper-right corner of any page, use the drop-down menu, and select New repository.
+#  In the upper-right corner of any page, use the drop-down menu, and select New repository.
 
-A screenshot of the drop-down menu of the plus sign in the top right corner of GitHub.com, with the first option being New repository.
+#  Use the Owner dropdown menu to select the account you want to own the repository.
 
-Use the Owner dropdown menu to select the account you want to own the repository.
+#  Type a name for your repository, and an optional description.
+  
+# Choose a repository visibility.
 
-A screenshot of the drop-down menu of who should be the owner of the new repository.
+- Public repositories are accessible to everyone on the internet.
 
-Type a name for your repository, and an optional description.
+- Private repositories are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members.
 
-An image of the text box of the repository name highlighted.
+# Click Create repository and congratulations! You just created a repository!
 
-## Choose a repository visibility.
 
-Public repositories are accessible to everyone on the internet.
+## How to add a file to your repository
 
-Private repositories are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members.
-
-Click Create repository and congratulations! You just created a repository!
-
-Next up, let’s review how to add files to your repository.
-
-How to add a file to your repository
 Files in GitHub can do a handful of things, but the main purpose of files is to store data and information about your project.
 
 Let’s review how to add a file to your repository.
 
 But before we begin, it is worth knowing in order to add a file to a repository you must first have minimum Write access within the repository you want to add a file.
 
-On GitHub.com, navigate to the main page of the repository.
+- On GitHub.com, navigate to the main page of the repository.
 
-In your repository, browse to the folder where you want to create a file.
+- In your repository, browse to the folder where you want to create a file.
 
-Above the list of files, select the Add file ᐁ dropdown menu, then click ᐩ Create new file. Alternatively, you can click ᐩ in the file tree view on the left.
+- Above the list of files, select the Add file ᐁ dropdown menu, then click ᐩ Create new file. Alternatively, you can click ᐩ in the file tree view on the left.
 
-A screenshot of the two options of adding a file to your new repository highlighted in red. One option is the plus sign in the left hand navigation bar, the second option is the add file button towards the right of the screen.
+- In the file name field, type the name and extension for the file. To create subdirectories, type the / directory separator.
 
-In the file name field, type the name and extension for the file. To create subdirectories, type the / directory separator.
+- In the file contents text box, type content for the file.
 
-In the file contents text box, type content for the file.
+- To review the new content, above the file contents, click Preview.
 
-To review the new content, above the file contents, click Preview.
+- Click Commit changes...
 
-Screenshot showing a yml file with the preview button highlighted in the top left.
+- In the "Commit message" field, type a short, meaningful commit message that describes the change you made to the file. You can attribute the commit to more than one author in the commit message.
 
-Click Commit changes...
+- If you have more than one email address associated with your account on GitHub.com, click the email address drop-down menu and select the email address to use as the Git author email address. Only verified email addresses appear in this drop-down menu. If you enabled email address privacy, then [username]@users.noreply.github.com is the default commit author email address.
 
-In the "Commit message" field, type a short, meaningful commit message that describes the change you made to the file. You can attribute the commit to more than one author in the commit message.
+- Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is the default branch, you should choose to create a new branch for your commit and then create a pull request.
 
-If you have more than one email address associated with your account on GitHub.com, click the email address drop-down menu and select the email address to use as the Git author email address. Only verified email addresses appear in this drop-down menu. If you enabled email address privacy, then [username]@users.noreply.github.com is the default commit author email address.
+- Click Commit changes or Propose changes.
 
-Screenshot showing a commit change with a description box and the drop-down menu of the email to select as the author of the commit.
-
-Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is the default branch, you should choose to create a new branch for your commit and then create a pull request.
-
-Screenshot showing creating a new branch from a commit option select with the textbox of the new branch below it.
-
-Click Commit changes or Propose changes.
-
-Congratulations you just created a new file in your repository! You have also created a new branch and made a commit!
-
-But before we review branches and commits in the next unit, let’s quickly review gists, wikis, and GitHub pages because they are similar to repositories.
+# Congratulations you just created a new file in your repository! You have also created a new branch and made a commit!
 
 ## What are gists
 Now that we have a good understanding of repositories, we can review gists. Similarly to repositories, gists are a simplified way to share code snippets with others.
@@ -131,3 +115,5 @@ You can use your repository's wiki to share long-form content about your project
 While a README file quickly tells what your project can do, you can use a wiki to provide additional documentation.
 
 It’s worth a reminder that if your repository is private only people who have at least read access to your repository will have access to your wiki.
+
+
