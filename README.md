@@ -49,19 +49,19 @@ You can create a new repository on your personal account or any organization whe
 
 Let’s tackle creating a repository from github.com.
 
-##  In the upper-right corner of any page, use the drop-down menu, and select New repository.
+1.   In the upper-right corner of any page, use the drop-down menu, and select New repository.
 
-##  Use the Owner dropdown menu to select the account you want to own the repository.
+2.  Use the Owner dropdown menu to select the account you want to own the repository.
 
-##  Type a name for your repository, and an optional description.
+3.  Type a name for your repository, and an optional description.
   
-## Choose a repository visibility.
+4. Choose a repository visibility.
 
 - Public repositories are accessible to everyone on the internet.
 
 - Private repositories are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members.
 
-## Click Create repository and congratulations! You just created a repository!
+5. Click Create repository and congratulations! You just created a repository!
 
 
 ## How to add a file to your repository
