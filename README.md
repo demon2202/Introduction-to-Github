@@ -12,9 +12,10 @@
 Collaboration is at the core of everything GitHub does. We know inefficient collaboration results in wasted time and money. We counteract that with a suite of seamless tools that allow collaboration to happen effortlessly.
 
 Repositories, Issues, Pull Requests, and other tools help to enable developers, project managers, operation leaders, and others at the same company to work faster together, cut down approval times, and ship more quickly.
-
+----
 ## Productivity
-Productivity is accelerated with automation that the GitHub Enterprise Platform provides. With built-in CI/CD tools directly integrated into the workflow, the platform gives users the ability to set tasks and forget them, taking care of routine administration, and speeding up day-to-day work. This gives your developers more time to focus on what matters most: creating innovative solutions.
+ Productivity is accelerated with automation that the GitHub Enterprise Platform provides. With built-in CI/CD tools directly integrated into the workflow, the platform gives users the ability to set tasks and forget them, taking care 
+ of routine administration, and speeding up day-to-day work. This gives your developers more time to focus on what matters most: creating innovative solutions.
 -----
 ## Security
 GitHub focuses on integrating security directly into the development process from the start. GitHub Enterprise platform includes native, first-party security features that minimize security risk with a built-in security solution. Plus, your code remains private within your organization, and at the same time you are able to take advantage of security overview and Dependabot.
@@ -37,7 +38,8 @@ In essence the GitHub Enterprise Platform focuses on the developer experience–
 - Introduction to gists, wikis, and GitHub pages
 -----  
 ## What is a repository?
-A repository contains all of your project's files and each file's revision history. It is one of the essential parts that helps you collaborate with people. You can use repositories to manage your work, track changes, store revision history and work with others. Before we dive too deep, let’s first start with how to create a repository.
+ A repository contains all of your project's files and each file's revision history. It is one of the essential parts that helps you collaborate with people. You can use repositories to manage your work, track changes, store revision 
+ history and work with others. Before we dive too deep, let’s first start with how to create a repository.
 -----
 ## How to create a repository
 You can create a new repository on your personal account or any organization where you have sufficient permissions.
@@ -88,8 +90,6 @@ But before we begin, it is worth knowing in order to add a file to a repository 
 - Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is the default branch, you should choose to create a new branch for your commit and then create a pull request.
 
 - Click Commit changes or Propose changes.
------
-## Congratulations you just created a new file in your repository! You have also created a new branch and made a commit!Now lets learn abot gits and wikis
 ----
 ## What are gists
 Now that we have a good understanding of repositories, we can review gists. Similarly to repositories, gists are a simplified way to share code snippets with others.
@@ -119,9 +119,10 @@ It’s worth a reminder that if your repository is private only people who have 
 - The GitHub Flow
 
 ----  
-## What are branches
-Branches are an essential part to the GitHub experience because they're where we can make changes without affecting the entire project we're working on.
-Your branch is a safe place to experiment with new features or fixes. If you make a mistake, you can revert your changes or push more changes to fix the mistake. Your changes won't update on the default branch until you merge your branch.
+## What are branches  
+ Branches are an essential part to the GitHub experience because they're where we can make changes without affecting the entire project we're working on.
+ Your branch is a safe place to experiment with new features or fixes. If you make a mistake, you can revert your changes or push more changes to fix the mistake. Your changes won't update on the default branch until you merge your 
+ branch.
 ----
 # Note:
 - Alternatively, you can create a new branch and check it out by simply using git in a terminal the command would be git checkout -b newBranchName
@@ -144,10 +145,12 @@ Let’s briefly review what commits are.
 
 -----
 # What are pull requests?
-A pull request is the mechanism used to signal that the commits from one branch are ready to be merged into another branch.
-The team member submitting the pull request requests one or more reviewers to verify the code and approve the merge. These reviewers have the opportunity to comment on changes, add their own, or use the pull request itself for further discussion.
-Once the changes have been approved (if approval is required), the pull request's source branch (the compare branch) is merged into the base branch.
-Now that we know of all the ingredients, let’s review the GitHub flow.
+
+ A pull request is the mechanism used to signal that the commits from one branch are ready to be merged into another branch.
+ The team member submitting the pull request requests one or more reviewers to verify the code and approve the merge. These reviewers have the opportunity to comment on changes, add their own, or use the pull request itself for further 
+ discussion.
+ Once the changes have been approved (if approval is required), the pull request's source branch (the compare branch) is merged into the base branch.
+ Now that we know of all the ingredients, let’s review the GitHub flow.
 ----
 ## The GitHub flow
 The GitHub flow can be defined as a lightweight workflow that allows for safe experimentation. You can test new ideas and collaboration with your team by using branching, pull requests, and merging.
