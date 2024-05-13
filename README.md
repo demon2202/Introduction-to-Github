@@ -1,4 +1,14 @@
-## 1. What is GitHub?
+## Table of Contents
+
+1. [GitHub](#https://github.com/)
+2. [Understanding Version Control](#https://www.geeksforgeeks.org/version-control-systems/)
+3. [Collaborating on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)
+4. [GitHub Features](https://github.com/features)
+5. [Best Practices](#best-practices)
+6. [GitHub Enterprise](https://github.com/enterprise)
+
+
+## 1. GitHub?
 
 GitHub is not just a hosting platform for software development projects; it's a complete ecosystem that facilitates collaboration, version control, and project management. It allows developers to work together on projects, track changes, and manage code efficiently. Here are some key aspects:
 
@@ -24,9 +34,40 @@ A repository (or repo) is a central place where your project's files and version
 
 ## 3. Understanding Version Control
 
-### What is Version Control?
+### What is a “version control system”? 
 
-Version control is a system that records changes to files over time, enabling you to recall specific versions later. It allows developers to collaborate effectively, track changes, and manage codebase history.
+Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
+
+### Why Version Control system is so Important?
+
+As we know that a software product is developed in collaboration by a group of developers they might be located at different locations and each one of them contributes to some specific kind of functionality/features. So in order to contribute to the product, they made modifications to the source code(either by adding or removing). A version control system is a kind of software that helps the developer team to efficiently communicate and manage(track) all the changes that have been made to the source code along with the information like who made and what changes have been made. A separate branch is created for every contributor who made the changes and the changes aren’t merged into the original source code unless all are analyzed as soon as the changes are green signaled they merged to the main source code. It not only keeps source code organized but also improves productivity by making the development process smoothly.
+
+### Benefits of the version control system:
+
+- Enhances the project development speed by providing efficient collaboration,
+- Leverages the productivity, expedites product delivery, and skills of the employees through better communication and assistance,
+- Reduce possibilities of errors and conflicts meanwhile project development through traceability to every small change,
+- Employees or contributors of the project can contribute from anywhere irrespective of the different geographical locations through this VCS,
+-  For each different contributor to the project, a different working copy is maintained and not merged to the main file unless the working copy is validated. The most popular example is Git, Helix core, Microsoft TFS,
+- Helps in recovery in case of any disaster or contingent situation,
+- Informs us about Who, What, When, Why changes have been made.
+
+### Use of Version Control System: 
+
+- A repository: It can be thought of as a database of changes. It contains all the edits and historical versions (snapshots) of the project.
+- Copy of Work (sometimes called as checkout): It is the personal copy of all the files in a project. You can edit to this copy, without affecting the work of others and you can finally commit your changes to a repository when you are done making your changes.
+- Working in a group: Consider yourself working in a company where you are asked to work on some live project. You can’t change the main code as it is in production, and any change may cause inconvenience to the user, also you are working in a team so you need to collaborate with your team to and adapt their changes. Version control helps you with the, merging different requests to main repository without making any undesirable changes. You may test the functionalities without putting it live, and you don’t need to download and set up each time, just pull the changes and do the changes, test it and merge it back. It may be visualized as. 
+
+### Types of Version Control Systems: 
+- Local Version Control Systems
+- Centralized Version Control Systems
+- Distributed Version Control Systems
+  
+# Local Version Control Systems: 
+It is one of the simplest forms and has a database that kept all the changes to files under revision control. RCS is one of the most common VCS tools. It keeps patch sets (differences between files) in a special format on disk. By adding up all the patches it can then re-create what any file looked like at any point in time. 
+
+# Centralized Version Control Systems:
+Centralized version control systems contain just one repository globally and every user need to commit for reflecting one’s changes in the repository. It is possible for others to see your changes by updating. 
 
 ### Why Use Version Control?
 
