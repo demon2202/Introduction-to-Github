@@ -1,7 +1,7 @@
 ## Table of Contents
 
-1. [GitHub](#https://github.com/)
-2. [Understanding Version Control](#https://www.geeksforgeeks.org/version-control-systems/)
+1. [GitHub](https://github.com/)
+2. [Understanding Version Control](https://www.geeksforgeeks.org/version-control-systems/)
 3. [Collaborating on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)
 4. [GitHub Features](https://github.com/features)
 5. [Best Practices](#best-practices)
