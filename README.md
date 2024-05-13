@@ -117,7 +117,6 @@ The [official GitHub documentation](https://docs.github.com/) is a valuable reso
 ### Online Courses
 
 Various online platforms offer courses and tutorials on using GitHub effectively. Websites like Coursera, Udemy, and Codecademy provide structured learning paths covering Git
-
 , GitHub, and related topics.
 
 ### Books
